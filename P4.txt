@@ -22,7 +22,7 @@ Projects = {
   'P04', 'Delta', 104, 1250000
 }
 
-π DeptID, DeptName, ManagerID (
+π Budget, DeptID, DeptName, ManagerID (
 	σ Budget ≥ 1000000 ∧ EmpID = ManagerID
 	(Employees ⨝ Departments ⨝ Projects)
 )
