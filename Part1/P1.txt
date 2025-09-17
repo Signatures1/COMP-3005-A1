@@ -22,4 +22,4 @@ Projects = {
   'P04', 'Delta', 104, 1250000
 }
 
-σ Salary ≥ 3000 ( Employees )
+σ Salary > 3000 (Employees)
