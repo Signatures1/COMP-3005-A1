@@ -29,3 +29,8 @@ Projects = {
     (π DeptID, DeptName, ManagerID (Departments))
   )
 )
+
+π Budget, DeptID, DeptName, ManagerID (
+  σ Budget ≥ 1000000 (Projects) 
+	⨝ LeadEmpID = ManagerID (Departments)
+)
