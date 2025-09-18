@@ -22,11 +22,6 @@ Projects = {
   'P04', 'Delta', 104, 1250000
 }
 
-(
-	π EmpID, Name (Employees)
-) 
--
-(π EmpID, Name (
-		Employees ⨝ (EmpID = ManagerID) (π ManagerID (Departments) )
-	)
+π EmpID, Name(
+	σ ¬(Position = 'Manager') (Employees)
 )
