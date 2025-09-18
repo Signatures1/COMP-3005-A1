@@ -23,5 +23,5 @@ Projects = {
 }
 
 π EmpID, Name(
-	σ ¬(Position = 'Manager') (Employees)
+	σ ¬(Position = 'Manager')(Employees)
 )
