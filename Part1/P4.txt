@@ -24,8 +24,8 @@ Projects = {
 
 π Budget, DeptID, DeptName, ManagerID (
   σ Budget ≥ 1000000 (
-    ( π LeadEmpID, Budget (Projects) )
+    (π LeadEmpID, Budget (Projects))
     ⨝ (LeadEmpID = ManagerID)
-    ( π DeptID, DeptName, ManagerID (Departments) )
+    (π DeptID, DeptName, ManagerID (Departments))
   )
 )
