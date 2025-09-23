@@ -1,0 +1,5 @@
+{ 
+    e.Name, p.ProjectName | 
+    e ∈ Employees AND p ∈ Projects AND
+    e.EmpID = p.LeadEmpID
+}

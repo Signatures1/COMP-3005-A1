@@ -1,0 +1,5 @@
+{ 
+    p.ProjectName | 
+    p ∈ Projects AND e ∈ Employees AND d ∈ Departments AND
+    d.DeptName = 'Finance' AND p.LeadEmpID = e.EmpID AND e.DeptID = d.DeptID
+}

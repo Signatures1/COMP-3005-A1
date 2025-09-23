@@ -1,0 +1,1 @@
+{ e.Position | e ∈ Employees AND e.Name = 'David' }

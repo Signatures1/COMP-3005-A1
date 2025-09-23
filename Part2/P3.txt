@@ -1,0 +1,6 @@
+{ 
+	e.Name | 
+    e ∈ Employees AND e.Position = 'Manager' AND
+    d ∈ Departments AND d.DeptName = 'IT' AND
+    e.EmpID = d.ManagerID
+}

@@ -1,0 +1,5 @@
+{ 
+    p.Budget, d.DeptID, d.DeptName, d.ManagerID | 
+    p ∈ Projects AND d ∈ Departments AND
+    p.Budget ≥ 1000000 AND p.LeadEmpID = d.ManagerID
+}

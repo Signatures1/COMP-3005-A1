@@ -1,0 +1,5 @@
+{ 
+    e.EmpID, e.Name | 
+    e ∈ Employees AND 
+    NOT (e.Position = 'Manager')
+}

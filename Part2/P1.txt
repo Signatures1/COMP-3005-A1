@@ -1,0 +1,1 @@
+{ e | e ∈ Employees AND e.Salary > 3000 }
